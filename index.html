@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de QR Code Futurista</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="qr-header">
+      <h1>Gerador de QR Code</h1>
+      <p>Digite um texto ou link e gere seu QR Code instantaneamente!</p>
+    </div>
+    <form id="qr-form" autocomplete="off" onsubmit="return false;">
+      <input type="text" placeholder="Digite aqui..." required>
+      <button type="button">Gerar QR Code</button>
+    </form>
+    <div id="qr-code">
+      <img src="img/qrcode.png" alt="QR Code">
+    </div>
+  </div>
+</body>
+
+</html>
